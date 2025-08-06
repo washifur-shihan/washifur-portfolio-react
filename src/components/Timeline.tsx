@@ -21,9 +21,9 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Looking for a Job :))</h3>
-            <h4 className="vertical-timeline-element-subtitle">Or an internship</h4>
+            <h4 className="vertical-timeline-element-subtitle">As a Fresher</h4>
             <p>
-              To gain more experience of course!!
+              to gain some professional knowledge :D 
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

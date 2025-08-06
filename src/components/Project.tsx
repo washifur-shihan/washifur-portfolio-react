@@ -18,7 +18,7 @@ function Project() {
         <div className="projects-grid">
             <div className="project">
                 <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Rooks Movies</h2></a>
+                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>React Frontend - Rooks Movies</h2></a>
                 <p>Designed, developed movie finder app with semantic search with favourite showbar using React, JavaScript, RESTful APIs</p>
             </div>
             <div className="project">
@@ -34,22 +34,22 @@ function Project() {
             <div className="project">
                 <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Laptop Price Detector</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
+                <p>A price prediction model and application using machine learning algorithms such as Random Forest, Linear Regression and Voting Regressor. Proper Data Processing and features were extracted from a dataset, taken from a kaggle website and then engineered on it.</p>
             </div>
             <div className="project">
                 <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>Maze Game 2D</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
+                <p>A maze game with counter of how many moves used to complete the game. OpenGL and python framework were used in this project for its design.</p>
             </div>
             <div className="project">
                 <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>Flutter Breakfast App</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
+                <p>Designed a flutter application for breakfast and foods with their calory and other information with a search option.</p>
             </div>
             <div className="project">
                 <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>The Office Schema SQL</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
+                <p>Developed a Database to learn SQL as a whole. The Office series reference was taken here to implement the schema.</p>
             </div>
             
         </div>
