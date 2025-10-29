@@ -1,10 +1,13 @@
 import React from "react";
-import '@fortawesome/free-regular-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
-import '../assets/styles/Timeline.scss'
+import "@fortawesome/free-regular-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import "../assets/styles/Timeline.scss";
 
 function Timeline() {
   return (
@@ -14,50 +17,55 @@ function Timeline() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
-            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
+            contentArrowStyle={{ borderRight: "7px solid  white" }}
             date="2025 - present"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Looking for a Job :))</h3>
-            <h4 className="vertical-timeline-element-subtitle">As a Fresher</h4>
-            <p>
-              to gain some professional knowledge :D 
-            </p>
+            <h3 className="vertical-timeline-element-title">
+              Softvence Agency
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Mobile App Developer
+            </h4>
+            <p>Flutter, Dart, API Integration, Swagger, Postman</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2019 - 2025"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Bangladesh Academy of Geological Sciences</h3>
-            <h4 className="vertical-timeline-element-subtitle">Vice President</h4>
-            <p>
-               Web Development, Team Leading
-            </p>
+            <h3 className="vertical-timeline-element-title">
+              Bangladesh Academy of Geological Sciences
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Vice President
+            </h4>
+            <p>Web Development, Team Leading</p>
           </VerticalTimelineElement>
 
           <h1>Education History</h1>
 
-
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2020 - 2025"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">BRAC University</h3>
-            <h4 className="vertical-timeline-element-subtitle">Computer Science and Engineering</h4>
+            <h4 className="vertical-timeline-element-subtitle">
+              Computer Science and Engineering
+            </h4>
             <p>
               CG: 3.40/4.00 <br />
-              Relevant Courses: Data Analysis, Software Engineering, OS, DSA, AI, ML, NLP<br />
+              Relevant Courses: Data Analysis, Software Engineering, OS, DSA,
+              AI, ML, NLP
+              <br />
             </p>
           </VerticalTimelineElement>
-        
         </VerticalTimeline>
-
       </div>
     </div>
   );
