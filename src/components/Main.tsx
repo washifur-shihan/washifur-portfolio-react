@@ -20,7 +20,7 @@ function Main() {
             <h1>Washifur</h1>
             <h1>Rahman</h1>
           </div>
-          <p>Full Stack Engineer</p>
+          <p>Full Stack AI Engineer</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/washifur-shihan" target="_blank" rel="noreferrer"><GitHubIcon/></a>
