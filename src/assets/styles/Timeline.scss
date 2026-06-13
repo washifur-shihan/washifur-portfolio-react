@@ -1,38 +1,101 @@
-.vertical-timeline span {
-    color: white;
-    font-family: 'Courier Prime', monospace;
+.vertical-timeline-element-content {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2) !important;
+    border-radius: 12px !important;
+    padding: 2rem !important;
+    background-color: #1e1e1e !important;
+    color: #f8f9fa !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4) !important;
+    }
+
+    h3.vertical-timeline-element-title {
+        color: #fff !important;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }
+
+    h4.vertical-timeline-element-subtitle {
+        color: #b0b0b0 !important;
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        color: #dcdcdc !important;
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-top: 1rem;
+    }
 }
 
-.vertical-timeline p {
-    color: rgb(39, 40, 34);
+.vertical-timeline-element-content-arrow {
+    border-right: 7px solid #1e1e1e !important;
 }
 
-.vertical-timeline-element p {
-    color: rgb(39, 40, 34);
+.vertical-timeline-element-date {
+    color: white !important;
+    opacity: 0.9;
+    font-weight: 600;
 }
 
-.vertical-timeline-element h3 {
-    color: rgb(39, 40, 34);
-}
-
-.vertical-timeline-element h4 {
-    color: rgb(39, 40, 34);
-}
-
-.vertical-timeline-element span {
-    color: rgb(39, 40, 34);
-}
-
-.vertical-timeline-element .vertical-timeline-element-date {
-    color: white;
+.vertical-timeline-element-icon {
+    box-shadow: 0 0 0 4px #0d1116, inset 0 2px 0 rgba(0, 0, 0, .08), 0 3px 0 4px rgba(0, 0, 0, .05) !important;
 }
 
 .svg-inline--fa {
     color: white;
 }
 
+/* Light mode overrides */
+.light-mode {
+    .vertical-timeline-element-content {
+        background-color: #ffffff !important;
+        color: #0d1116 !important;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05) !important;
+
+        &:hover {
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1) !important;
+        }
+
+        h3.vertical-timeline-element-title {
+            color: #0d1116 !important;
+        }
+
+        h4.vertical-timeline-element-subtitle {
+            color: #5000ca !important;
+        }
+
+        p {
+            color: #444 !important;
+        }
+    }
+
+    .vertical-timeline-element-content-arrow {
+        border-right: 7px solid #ffffff !important;
+    }
+
+    .vertical-timeline-element-date {
+        color: #0d1116 !important;
+    }
+    
+    .vertical-timeline-element-icon {
+        box-shadow: 0 0 0 4px #f8f9fa, inset 0 2px 0 rgba(0, 0, 0, .08), 0 3px 0 4px rgba(0, 0, 0, .05) !important;
+    }
+}
+
 @media screen and (max-width: 1170px) {
-    .vertical-timeline-element .vertical-timeline-element-date {
-        color: rgb(39, 40, 34);
+    .vertical-timeline-element-date {
+        color: #f8f9fa !important;
+    }
+    
+    .light-mode {
+        .vertical-timeline-element-date {
+            color: #0d1116 !important;
+        }
     }
 }

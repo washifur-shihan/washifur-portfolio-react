@@ -17,10 +17,22 @@ function Timeline() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
-            contentArrowStyle={{ borderRight: "7px solid  white" }}
-            date="2025 - present"
-            iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
+            date="Feb 2026 – Ongoing"
+            iconStyle={{ background: "#5000ca", color: "#fff" }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              FireAI Betopia
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              AI Engineer
+            </h4>
+            <p>Langchain, Langgraph, Postman, FastAPI, RAG, LLM, multi-agent, Prompt injections</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="August 2025 – November 2025"
+            iconStyle={{ background: "#5000ca", color: "#fff" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
@@ -29,16 +41,16 @@ function Timeline() {
             <h4 className="vertical-timeline-element-subtitle">
               Mobile App Developer
             </h4>
-            <p>Flutter, Dart, API Integration, Swagger, Postman</p>
+            <p>Flutter, Dart, Swift, API Integration, Swagger, Postman</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2019 - 2025"
-            iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
+            date="2019 – 2025"
+            iconStyle={{ background: "#5000ca", color: "#fff" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Bangladesh Academy of Geological Sciences
+              Bangladesh Academy of Geological Sciences Club
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Vice President
@@ -53,7 +65,7 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2020 - 2025"
-            iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
+            iconStyle={{ background: "#5000ca", color: "#fff" }}
             icon={<FontAwesomeIcon icon={faGraduationCap} />}
           >
             <h3 className="vertical-timeline-element-title">BRAC University</h3>
