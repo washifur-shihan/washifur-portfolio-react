@@ -1,28 +1,27 @@
 {
   "files": {
-    "main.css": "/washifur-portfolio-react/static/css/main.be900e99.css",
-    "main.js": "/washifur-portfolio-react/static/js/main.7a2b359f.js",
+    "main.css": "/washifur-portfolio-react/static/css/main.a7392dc6.css",
+    "main.js": "/washifur-portfolio-react/static/js/main.72c2168f.js",
     "static/js/453.b05d8aa5.chunk.js": "/washifur-portfolio-react/static/js/453.b05d8aa5.chunk.js",
     "static/media/mock09.png": "/washifur-portfolio-react/static/media/mock09.b5688befca6c1b0e4023.png",
-    "static/media/mock14.png": "/washifur-portfolio-react/static/media/mock14.80421987107370b0c3b8.png",
+    "static/media/mock11.png": "/washifur-portfolio-react/static/media/mock11.f435623a5c244519cf5b.png",
+    "static/media/mock12.png": "/washifur-portfolio-react/static/media/mock12.15bdeca6e4361863412b.png",
     "static/media/mock05.png": "/washifur-portfolio-react/static/media/mock05.09eabf8ddb95b10a5bfb.png",
     "static/media/mock10.png": "/washifur-portfolio-react/static/media/mock10.cb65e5a6806b4321703b.png",
     "static/media/bg-light.png": "/washifur-portfolio-react/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/washifur-portfolio-react/static/media/bg-dark.f420c6b8458af72de935.png",
     "static/media/mock08.png": "/washifur-portfolio-react/static/media/mock08.69095cbf8137142c83be.png",
-    "static/media/mock12.png": "/washifur-portfolio-react/static/media/mock12.e57da2bf0cad808edfba.png",
-    "static/media/mock13.png": "/washifur-portfolio-react/static/media/mock13.e97bd2ff337be9d50415.png",
     "static/media/mock04.png": "/washifur-portfolio-react/static/media/mock04.a09f7df5bce9972696bb.png",
     "static/media/mock07.png": "/washifur-portfolio-react/static/media/mock07.bcbd16a2bcb8cf1bc75c.png",
-    "static/media/mock11.png": "/washifur-portfolio-react/static/media/mock11.529456005406e2316a60.png",
+    "static/media/mock13.png": "/washifur-portfolio-react/static/media/mock13.7d63b7553b8409103f6c.png",
     "static/media/mock06.png": "/washifur-portfolio-react/static/media/mock06.aec9b789fd04d62070ae.png",
     "index.html": "/washifur-portfolio-react/index.html",
-    "main.be900e99.css.map": "/washifur-portfolio-react/static/css/main.be900e99.css.map",
-    "main.7a2b359f.js.map": "/washifur-portfolio-react/static/js/main.7a2b359f.js.map",
+    "main.a7392dc6.css.map": "/washifur-portfolio-react/static/css/main.a7392dc6.css.map",
+    "main.72c2168f.js.map": "/washifur-portfolio-react/static/js/main.72c2168f.js.map",
     "453.b05d8aa5.chunk.js.map": "/washifur-portfolio-react/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be900e99.css",
-    "static/js/main.7a2b359f.js"
+    "static/css/main.a7392dc6.css",
+    "static/js/main.72c2168f.js"
   ]
 }
