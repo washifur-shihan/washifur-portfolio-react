@@ -6,6 +6,9 @@ import mock07 from '../assets/images/mock07.png';
 import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
+import mock11 from '../assets/images/mock11.png';
+import mock12 from '../assets/images/mock12.png';
+import mock13 from '../assets/images/mock13.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -13,6 +16,21 @@ function Project() {
     <div className="projects-container" id="projects">
         <h1>Personal Projects</h1>
         <div className="projects-grid">
+            <div className="project">
+                <img src={mock13} className="zoom" alt="thumbnail" width="100%"/>
+                <h2>Business Chatbot with Raid and Sentiment</h2>
+                <p>Built a business chatbot for a client which can oberve the whole data sheet and answer accordingly. It has image search as well and can suggest items like a human. A production ready project.</p>
+            </div>
+            <div className="project">
+                <a href="https://github.com/washifur-shihan/order-system-VAPI-fastAPI" target="_blank" rel="noreferrer"><img src={mock12} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/washifur-shihan/order-system-VAPI-fastAPI" target="_blank" rel="noreferrer"><h2>Order System with VAPI and FastAPI</h2></a>
+                <p>A voice-based order management system integrating VAPI for voice interactions and FastAPI for high-performance backend services.</p>
+            </div>
+            <div className="project">
+                <a href="https://github.com/washifur-shihan/algorithm-agent-automate-building-project-workflows" target="_blank" rel="noreferrer"><img src={mock11} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/washifur-shihan/algorithm-agent-automate-building-project-workflows" target="_blank" rel="noreferrer"><h2>Algorithm Agent for Workflows</h2></a>
+                <p>An AI-driven algorithm agent designed to automate the building and management of complex project workflows.</p>
+            </div>
             <div className="project">
                 <a href="https://github.com/washifur-shihan/react-project-frontend" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/washifur-shihan/react-project-frontend" target="_blank" rel="noreferrer"><h2>React Frontend - Rooks Movies</h2></a>

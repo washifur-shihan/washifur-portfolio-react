@@ -1,3 +1,18 @@
+#history {
+    padding: 5% 10%;
+    
+    .items-container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
 .vertical-timeline-element-content {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2) !important;
     border-radius: 12px !important;

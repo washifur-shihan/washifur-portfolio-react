@@ -13,7 +13,7 @@ function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Career & Education History</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -44,28 +44,9 @@ function Timeline() {
             <p>Flutter, Dart, Swift, API Integration, Swagger, Postman</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2019 – 2025"
-            iconStyle={{ background: "#5000ca", color: "#fff" }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Bangladesh Academy of Geological Sciences Club
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Vice President
-            </h4>
-            <p>Web Development, Team Leading</p>
-          </VerticalTimelineElement>
-        </VerticalTimeline>
-
-        <h1 style={{ marginTop: '50px' }}>Education History</h1>
-
-        <VerticalTimeline>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element--education"
             date="2020 - 2025"
-            iconStyle={{ background: "#5000ca", color: "#fff" }}
+            iconStyle={{ background: "#0d1116", color: "#fff" }}
             icon={<FontAwesomeIcon icon={faGraduationCap} />}
           >
             <h3 className="vertical-timeline-element-title">BRAC University</h3>
@@ -78,6 +59,20 @@ function Timeline() {
               AI, ML, NLP
               <br />
             </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2019 – 2025"
+            iconStyle={{ background: "#5000ca", color: "#fff" }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Bangladesh Academy of Geological Sciences Club
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Vice President
+            </h4>
+            <p>Web Development, Team Leading</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
