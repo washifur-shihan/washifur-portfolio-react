@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/washifur-portfolio-react/static/css/main.a7392dc6.css",
-    "main.js": "/washifur-portfolio-react/static/js/main.72c2168f.js",
+    "main.js": "/washifur-portfolio-react/static/js/main.a1fb27bb.js",
     "static/js/453.b05d8aa5.chunk.js": "/washifur-portfolio-react/static/js/453.b05d8aa5.chunk.js",
     "static/media/mock09.png": "/washifur-portfolio-react/static/media/mock09.b5688befca6c1b0e4023.png",
     "static/media/mock11.png": "/washifur-portfolio-react/static/media/mock11.f435623a5c244519cf5b.png",
@@ -17,11 +17,11 @@
     "static/media/mock06.png": "/washifur-portfolio-react/static/media/mock06.aec9b789fd04d62070ae.png",
     "index.html": "/washifur-portfolio-react/index.html",
     "main.a7392dc6.css.map": "/washifur-portfolio-react/static/css/main.a7392dc6.css.map",
-    "main.72c2168f.js.map": "/washifur-portfolio-react/static/js/main.72c2168f.js.map",
+    "main.a1fb27bb.js.map": "/washifur-portfolio-react/static/js/main.a1fb27bb.js.map",
     "453.b05d8aa5.chunk.js.map": "/washifur-portfolio-react/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a7392dc6.css",
-    "static/js/main.72c2168f.js"
+    "static/js/main.a1fb27bb.js"
   ]
 }
